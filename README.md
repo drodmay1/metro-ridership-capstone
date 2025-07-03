@@ -24,19 +24,19 @@ Only Metro Rail data was used (Metrobus excluded).
 
 ## Repository Structure
 metro-ridership-capstone/
-├── .venv/                         # Virtual environment (ignored by Git)
-├── data/                          # Raw and cleaned data files (CSV, XLSX)
-│   ├── Capstone_Diagram.drawio.png
-│   ├── clean_metroridership.csv
-│   ├── daily_metrorail_ridership.xlsx
-│   └── metroridership.csv
-├── notebooks/                     # Jupyter notebooks
-│   ├── 01_data_overview.ipynb
-│   ├── 02_data_description.ipynb
-│   └── figures/                   # Exported chart images (PNG)
-├── .gitignore                     # Files and folders to ignore in Git
-├── requirements.txt              # Project dependencies
-└── README.md                     # Project overview and setup instructions
+├── .venv/ # Virtual environment (ignored by Git)
+├── data/ # Raw and cleaned data files (CSV, XLSX)
+│ ├── Capstone_Diagram.drawio.png
+│ ├── clean_metroridership.csv
+│ ├── daily_metrorail_ridership.xlsx
+│ └── metroridership.csv
+├── notebooks/ # Jupyter Notebooks
+│ ├── 01_data_overview.ipynb
+│ └── 02_data_description.ipynb
+├── figures/ # Exported chart images (PNG)
+├── .gitignore # Files and folders to ignore in Git
+├── requirements.txt # Project dependencies
+└── README.md # Project overview and setup instructions
 
 ## Results Summary
 | Model                      | MSE               | R² Score |
