@@ -33,3 +33,20 @@ Only Metro Rail data was used (Metrobus excluded).
 ## Report
 [View my Overleaf Report](https://www.overleaf.com/read/hxkvkcqksdhm#049a99)
 
+## Virtual Environment Setup
+
+# 1. Clone the repository
+git clone https://github.com/drodmay1/metro-ridership-capstone.git
+cd metro-ridership-capstone
+
+# 2. Create and activate virtual environment
+python3 -m venv .venv
+source .venv/bin/activate  # (On Windows: .venv\Scripts\activate)
+
+# 3. Install required dependencies
+pip install -r requirements.txt
+
+# 4. Launch Jupyter Notebook
+jupyter notebook
+
+
