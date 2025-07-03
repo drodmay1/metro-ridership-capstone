@@ -22,12 +22,29 @@ Only Metro Rail data was used (Metrobus excluded).
 - Excel (for initial exploration)
 - Overleaf / LaTeX for report writing
 
-## Project Structure
-/data → Raw and cleaned datasets
-/figures → Visualizations
-/notebooks → Jupyter notebooks
-/src → Python scripts
-/output → Model outputs, exports
+## Repository Structure
+metro-ridership-capstone/
+├── .venv/                         # Virtual environment (ignored by Git)
+├── data/                          # Raw and cleaned data files (CSV, XLSX)
+│   ├── Capstone_Diagram.drawio.png
+│   ├── clean_metroridership.csv
+│   ├── daily_metrorail_ridership.xlsx
+│   └── metroridership.csv
+├── notebooks/                     # Jupyter notebooks
+│   ├── 01_data_overview.ipynb
+│   ├── 02_data_description.ipynb
+│   └── figures/                   # Exported chart images (PNG)
+├── .gitignore                     # Files and folders to ignore in Git
+├── requirements.txt              # Project dependencies
+└── README.md                     # Project overview and setup instructions
+
+## Results Summary
+| Model                      | MSE               | R² Score |
+|---------------------------|------------------:|---------:|
+| Linear Regression          | 52,116,658,235    | -4.2185  |
+| Random Forest Regressor   | 1,951,757,714     | 0.9507   |
+| Support Vector Regressor  | 3,532,779,314     | 0.8982   |
+| Gradient Boosting Regressor | 4,983,145,736   | 0.8740   |
 
 
 ## Report
