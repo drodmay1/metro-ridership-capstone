@@ -56,18 +56,18 @@ metro-ridership-capstone/
 
 ## Virtual Environment Setup
 
-# 1. Clone the repository
+### 1. Clone the repository
 git clone https://github.com/drodmay1/metro-ridership-capstone.git
 cd metro-ridership-capstone
 
-# 2. Create and activate virtual environment
+### 2. Create and activate virtual environment
 python3 -m venv .venv
 source .venv/bin/activate  # (On Windows: .venv\Scripts\activate)
 
-# 3. Install required dependencies
+### 3. Install required dependencies
 pip install -r requirements.txt
 
-# 4. Launch Jupyter Notebook
+### 4. Launch Jupyter Notebook
 jupyter notebook
 
 
