@@ -39,7 +39,40 @@ metro-ridership-capstone/
 ├── .gitignore                    # Files and folders to ignore in Git
 ├── requirements.txt              # Project dependencies
 └── README.md                     # Project overview and setup instructions
+
 ```
+
+## Advanced Analysis: Predictive Modeling
+
+To explore future ridership trends, I trained and evaluated four machine learning models using features derived from the Metrorail ridership dataset:
+
+- **Linear Regression**
+- **Random Forest Regressor**
+- **Support Vector Regression (SVR)**
+- **Gradient Boosting Regressor**
+
+### Features Used
+- Year
+- Month
+- Day of Week
+- Is Weekend
+- Is Holiday
+
+The dataset was split into training and testing sets using an 80/20 ratio. Models were evaluated using **Mean Squared Error (MSE)** and **R² (coefficient of determination)**.
+
+### Results
+
+| Model                  | MSE           | R² Score |
+|------------------------|---------------|----------|
+| Linear Regression      | 52,116,658,235 | -4.2185  |
+| Random Forest Regressor| 1,951,757,714  | 0.9507   |
+| Support Vector Regressor| 3,532,779,314 | 0.8982   |
+| Gradient Boosting      | 4,983,145,736  | 0.8740   |
+
+Random Forest achieved the best performance in terms of both accuracy and generalization.
+
+> 📍 See full code in [01_data_overview.ipynb](notebooks/01_data_overview.ipynb)
+
 
 
 ## Results Summary
@@ -69,5 +102,6 @@ pip install -r requirements.txt
 
 ### 4. Launch Jupyter Notebook
 jupyter notebook
+
 
 
