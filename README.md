@@ -74,37 +74,40 @@ Random Forest achieved the best performance in terms of both accuracy and genera
 See full code in [01_data_overview.ipynb](notebooks/01_data_overview.ipynb)
 
 ## Key Visuals
-## Modeling Pipeline
-![Modeling Diagram](data/Capstone_Diagram.drawio.png)
+## Key Visuals
 
-## Sample EDA Visualizations
+### Modeling Pipeline
+![Modeling Diagram](notebooks/data/Capstone_Diagram.drawio.png)
+
+### Sample EDA Visualizations
 
 1. **Average Ridership by Day of Week**  
-![Avg by Day of Week](figures/eda_avg_by_day_of_week.png)
+![Avg by Day of Week](notebooks/figures/eda_avg_by_day_of_week.png)
 
 2. **Daily Ridership Distribution**  
-![Daily Ridership](figures/eda_distribution_daily_ridership.png)
+![Daily Ridership](notebooks/figures/eda_distribution_daily_ridership.png)
 
 3. **Holiday vs No Holiday Ridership**  
-![Holiday vs No Holiday](figures/eda_holiday_vs_noholiday.png)
+![Holiday vs No Holiday](notebooks/figures/eda_holiday_vs_noholiday.png)
 
 4. **Monthly Averages**  
-![Monthly Avg](figures/eda_monthly_average.png)
+![Monthly Avg](notebooks/figures/eda_monthly_average.png)
 
 5. **Seasonality Across Years**  
-![Seasonality Across Years](figures/eda_monthly_seasonality_acrossyears.png)
+![Seasonality Across Years](notebooks/figures/eda_monthly_seasonality_acrossyears.png)
 
 6. **Moving Average Trendline**  
-![Moving Avg](figures/eda_moving_avg_trendline.png)
+![Moving Avg](notebooks/figures/eda_moving_avg_trendline.png)
 
 7. **Monthly Trends (2019–2024)**  
-![Month-to-Month](figures/eda_seasonal_trend_month_to_month.png)
+![Month-to-Month](notebooks/figures/eda_seasonal_trend_month_to_month.png)
 
 8. **Total Ridership by Year**  
-![Yearly Total](figures/eda_total_ridership_by_year.png)
+![Yearly Total](notebooks/figures/eda_total_ridership_by_year.png)
 
 9. **Post-COVID Weekday Trends**  
-![Post COVID](figures/eda_weekday_avg_postcovid.png)
+![Post COVID](notebooks/figures/eda_weekday_avg_postcovid.png)
+
 
 
 ## Report
